@@ -2,12 +2,12 @@
   "name": "chatbot",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start:dev": "nodemon --exec babel-node src/server.js",
-    "start": "babel-node src/server.js",
-    "serve":"nodemon --exec babel-node src/index.js"
+    "start": "src/server.js",
+    "serve":"nodemon --exec babel-node src/server.js"
   },
   "type": "module",
   "author": "esra alshafi",
