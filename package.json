@@ -5,8 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "babel-node src/server.js",
-    "dev" : "nodemon --exec npm start"
+    "start": "nodemon --exec babel src/server.js",
+     "dev" : "nodemon --exec npm start"
   },
   "author": "esra alshafi",
   "license": "ISC",
