@@ -10,6 +10,7 @@
 
 
   },
+  "type": "module",
   "author": "esra alshafi",
   "license": "ISC",
   "dependencies": {
